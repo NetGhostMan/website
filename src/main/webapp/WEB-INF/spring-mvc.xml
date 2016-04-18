@@ -23,6 +23,13 @@
     <!-- 设置使用注解的类所在的jar包 -->
     <context:component-scan base-package="website.*" />
     
+    <mvc:interceptors>
+    	<mvc:interceptor>
+    		<mvc:mapping path="website/blackEnd/index.jsp"/>
+    		<bean class="website.interceptor.adminInterceptor"></bean>
+    	</mvc:interceptor>
+    </mvc:interceptors>
+    
     
      <!--
     <bean class = "org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">

@@ -3,8 +3,10 @@ package website.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import website.exception.adminException;
+
 @Controller
-public class pagesController {
+public class pagesController extends basePagesController{
 
 	@RequestMapping("index")
 	public String toHomePage() {
@@ -26,7 +28,11 @@ public class pagesController {
 		return "/blackEnd/adminLogin.jsp";
 	}
 	@RequestMapping("updateNavigationBar")
-	public String toupdateNavigationBarPage(){
+	public String toUpdateNavigationBarPage(){
 		return "/blackEnd/updateNavigationBar.jsp";
+	}
+	@RequestMapping("/exception")
+	public void toExceptionPage() throws adminException{
+		throw new adminException("触发异常测试");
 	}
 }

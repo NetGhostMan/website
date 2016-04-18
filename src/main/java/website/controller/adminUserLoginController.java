@@ -26,18 +26,16 @@ public class adminUserLoginController {
 			HttpServletRequest request, ModelMap map) {
 
 		try {
-			
+
 			adminUserBean user = service.doAdminUserLogin(adminUserName, adminUserPassword);
-			
+
 			map.addAttribute("user", user);
-			
+			return "/blackEnd/index.jsp";
 		} catch (Exception e) {
 			// TODO: handle exception
-			
+
 			return "/blackEnd/adminLogin.jsp";
 		}
-		
-		return "/blackEnd/index.jsp";
 	}
 
 	@RequestMapping("doAdminUserLogout")

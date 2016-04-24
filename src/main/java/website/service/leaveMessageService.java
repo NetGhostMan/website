@@ -9,7 +9,8 @@ import org.springframework.stereotype.Service;
 
 
 import website.bean.leaveMessageBean;
-import website.dao.implement.leaveMessageDaoImplementMybatis;
+import website.dao.leaveMessageDao;
+
 import website.mapper.messageMapperI;
 import website.util.myBatisUtil;
 
@@ -17,8 +18,9 @@ import website.util.myBatisUtil;
 public class leaveMessageService {
 
 	@Resource
-	leaveMessageDaoImplementMybatis dao;
+	leaveMessageDao dao;
 
+	
 	public void saveLeaveMessage(String nameOfMessage, String emailOfMessage, String textOfMessage) {
 		// TODO Auto-generated method stub
 		leaveMessageBean leavemessagebean = new leaveMessageBean();

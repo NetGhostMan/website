@@ -4,14 +4,14 @@ package website.dao.implement;
 import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Component;
 
 import website.bean.leaveMessageBean;
 import website.dao.leaveMessageDao;
 import website.mapper.messageMapperI;
 import website.util.myBatisUtil;
 
-@Repository
+@Component
 public class leaveMessageDaoImplementMybatis implements leaveMessageDao {
 
 	public void addMessage(leaveMessageBean leavemessagebean) {

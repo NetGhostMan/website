@@ -3,15 +3,14 @@ package website.dao.implement;
 import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Component;
 
 import website.bean.navigationBarBean;
 import website.dao.navigationBarDao;
 import website.mapper.messageMapperI;
 import website.util.myBatisUtil;
 
-
-@Repository
+@Component
 public class navigationBarDaoImplementMybatis implements navigationBarDao {
 
 	public void addNavigationBar(navigationBarBean navigationbarbean) {

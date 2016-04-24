@@ -4,13 +4,13 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 import website.bean.navigationBarBean;
-import website.dao.implement.navigationBarDaoImplementMybatis;
+import website.dao.navigationBarDao;
 
 @Service
 public class updateNavigationBarService {
 
 	@Resource
-	navigationBarDaoImplementMybatis dao;
+	navigationBarDao dao;
 
 	public void doAddNavigationBar(String navigationBarName) {
 		// TODO Auto-generated method stub

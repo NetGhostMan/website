@@ -1,12 +1,13 @@
 package website.dao.implement;
 
-import org.springframework.stereotype.Repository;
+
+
+import org.springframework.stereotype.Component;
 
 import website.bean.adminUserBean;
 import website.dao.adminUserDao;
 
-
-@Repository
+@Component
 public class adminUserDaoImplementMybatis implements adminUserDao {
 
 	public adminUserBean selectByUsername(String username) {

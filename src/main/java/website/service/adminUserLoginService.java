@@ -5,13 +5,13 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 
 import website.bean.adminUserBean;
-import website.dao.implement.adminUserDaoImplementMybatis;
+import website.dao.adminUserDao;
 
 @Service
 public class adminUserLoginService {
 
 	@Resource
-	adminUserDaoImplementMybatis dao;
+	adminUserDao dao;
 	
 
 	public adminUserBean doAdminUserLogin(String adminUserName, String adminUserPassword) throws Exception {

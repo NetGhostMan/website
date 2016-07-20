@@ -30,17 +30,17 @@ public class adminUserLoginController {
 			adminUserBean user = service.doAdminUserLogin(adminUserName, adminUserPassword);
 
 			map.addAttribute("user", user);
-			return "/blackEnd/index.jsp";
+			return "/WEB-INF/jsp/blackEnd/index.jsp";
 		} catch (Exception e) {
 			// TODO: handle exception
 
-			return "/blackEnd/adminLogin.jsp";
+			return "/WEB-INF/jsp/blackEnd/adminLogin.jsp";
 		}
 	}
 
 	@RequestMapping("doAdminUserLogout")
 	public String doLogout(SessionStatus status) {
 		status.setComplete();
-		return "/blackEnd/adminLogin.jsp";
+		return "/WEB-INF/jsp/blackEnd/adminLogin.jsp";
 	}
 }

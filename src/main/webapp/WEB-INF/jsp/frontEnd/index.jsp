@@ -199,7 +199,7 @@
 					<div class="col-sm-6 col-md-3 col-lg-3 web">
 						<div class="portfolio-item">
 							<div class="hover-bg">
-								<a href="img/portfolio/yuangongzizu.png" rel="prettyPhoto">
+								<a href="img/portfolio/yuangongzizu.jpg" rel="prettyPhoto">
 									<div class="hover-text">
 										<h4>员工自助平台</h4>
 										<div class="clearfix"></div>
@@ -213,7 +213,7 @@
 					<div class="col-sm-6 col-md-3 col-lg-3 web">
 						<div class="portfolio-item">
 							<div class="hover-bg">
-								<a href="img/portfolio/jinglizizu.png" rel="prettyPhoto">
+								<a href="img/portfolio/jinglizizu.jpg" rel="prettyPhoto">
 									<div class="hover-text">
 										<h4>经理自助平台</h4>
 										<div class="clearfix"></div>
@@ -257,7 +257,7 @@
 					<div class="col-sm-6 col-md-3 col-lg-3 app">
 						<div class="portfolio-item">
 							<div class="hover-bg">
-								<a href="img/portfolio/yidongyingyong.png" rel="prettyPhoto">
+								<a href="img/portfolio/yidong.png" rel="prettyPhoto">
 									<div class="hover-text">
 										<h4>移动应用平台</h4>
 										<div class="clearfix"></div>

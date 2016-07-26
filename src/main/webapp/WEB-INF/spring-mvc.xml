@@ -19,7 +19,6 @@
        http://www.springframework.org/schema/util/spring-util-3.0.xsd" >
 
     
-
     <!-- 设置使用注解的类所在的jar包 -->
     <context:component-scan base-package="website.*" />
     

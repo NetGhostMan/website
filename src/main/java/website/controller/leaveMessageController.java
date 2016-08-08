@@ -21,7 +21,7 @@ public class leaveMessageController {
 	leaveMessageService service;
 	
 	@RequestMapping(value = "saveLeaveMessage",method = RequestMethod.POST)
-	public String doSaveLeaveMessage(@RequestParam String nameOfMessage,@RequestParam String emailOfMessage,String textOfMessage,HttpServletRequest request){
+	public String doSaveLeaveMessage(@RequestParam String nameOfMessage,@RequestParam String emailOfMessage,@RequestParam String textOfMessage,HttpServletRequest request){
 		
 		try {
 			service.saveLeaveMessage(nameOfMessage,emailOfMessage,textOfMessage);

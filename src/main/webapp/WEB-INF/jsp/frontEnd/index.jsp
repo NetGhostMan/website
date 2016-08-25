@@ -92,7 +92,7 @@
 					<li><a href="#team-section" class="page-scroll"><%=nav[3]%></a></li>
 					<li><a href="#testimonials-section" class="page-scroll"><%=nav[4]%></a></li>
 					<li><a href="#contact-section" class="page-scroll"><%=nav[5]%></a></li>
-					<li><a href="http://120.26.103.224:80/" target="_blank"
+					<li><a href="http://www.chess-top.com:8080/sys/member/memberLoginFrm.do" target="_blank"
 						class="page-scroll">系统入口</a></li>
 				</ul>
 			</div>
@@ -454,7 +454,9 @@
 				<hr>
 				<div class="clearfix"></div>
 			</div>
+			<!--
 			<div class="col-md-8 col-md-offset-2">
+				  
 				<hr>
 				<h3>给我们留言</h3>
 				<form name="leaveMessage" action="saveLeaveMessage.html"
@@ -488,8 +490,8 @@
 			<div class="pull-left fnav">
 				<p><%=keepOnRecordBean.getKeepOnRecord()%></p>
 			</div>
-		</div>
-	</nav>
+		</div> 
+	</nav>  -->
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script
